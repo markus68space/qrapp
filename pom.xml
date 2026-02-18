@@ -46,6 +46,21 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+	<!-- BarCode Libraries -->
+<dependency>
+    <groupId>com.google.zxing</groupId>
+    <artifactId>core</artifactId>
+    <version>3.5.4</version>
+</dependency>
+
+<dependency>
+    <groupId>com.google.zxing</groupId>
+    <artifactId>javase</artifactId>
+    <version>3.5.4</version>
+</dependency>
+	<!-- BarCode Libraries end -->	
+		
 	</dependencies>
 	<dependencyManagement>
 		<dependencies>
