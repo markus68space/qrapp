@@ -5,6 +5,7 @@ import java.nio.file.Path;
 import org.me.qrapp.model.Vcard;
 import org.me.qrapp.service.QrCodeServiceImpl;
 
+import com.vaadin.flow.component.Unit;
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.html.Span;
 import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
@@ -56,6 +57,8 @@ public class HomeView extends VerticalLayout {
 			);
 		
 		// qrcode
+		outputImageFileTF.setWidth(384, Unit.PIXELS);
+		
 		add(outputImageFileTF,
 			actionsQrcodeHL,
 			qrcodeSpan);
